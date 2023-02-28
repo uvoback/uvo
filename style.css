@@ -1,0 +1,285 @@
+* {
+  position: relative;
+  box-sizing: border-box;
+
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 520;
+  font-family: xfont, xxfont;
+/*
+xfont, xxfont;
+DejaVu Sans,Verdana,Geneva,sans-serif;
+-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, "Helvetica Neue",  Arial, sans-serif;
+*/
+/*
+Trebuchet MS, Georgia, 宋体;
+*/
+  margin: 0px;
+  border: 0px #088 solid;
+  padding: 0px;
+
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mid {
+  display: inline-block;
+  font: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-size: inherit;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-position: center 0px;
+  
+  background-image: url(main/bgp.svg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*
+background-image: url(main/bgp.svg);
+background-attachment: fixed;
+background-size: cover;
+
+background-image: url(main/bgu.svg);
+background-repeat: repeat;
+background-size: 128px 128px;
+*/
+
+body * {
+  max-width: 320px;
+  width: fit-content;
+  height: fit-content;
+
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+h1, .h1 {
+  line-height: 50px;
+  font-size: 40px;
+  color: #f3f;
+}
+
+h2, .h2 {
+  line-height: 40px;
+  font-size: 30px;
+  color: rgb(255, 255, 0);
+}
+
+h3, h4, h5, h6, .h3 {
+  line-height: 30px;
+  font-size: 20px;
+  color: rgb(0, 255, 255);
+}
+
+.name {
+  background: linear-gradient(rgb(0, 0, 0), rgb(128, 32, 32), rgb(0, 0, 0))!important;
+  font-family: rfont;
+  color: #fff;
+}
+
+.loading {
+  color: #fff;
+  background-color: #000;
+  background-image: url(main/icon.svg);
+  background-size: 102px, 102px;
+  background-position: center 0px;
+  display: block;
+  line-height: 234px;
+  font-size: 20px;
+
+  border-width: 4px;
+  width: 160px;
+  height: 140px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  width: 320px;
+}
+
+.main > * > * , .frim > * {
+  background-color: black;
+  margin-bottom: 4px;
+}
+
+.main * {
+  border-radius: 12px;
+}
+
+.mainHead, .mainBody {
+  width: 320px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.frim {
+  display: block;
+  background-color: transparent;
+}
+
+.locator {
+  width: 0px;
+  height: 0px;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  display: block;
+  background-color: transparent;
+}
+
+.icon256 {
+  display: block;
+  width: 256px;
+  height: 256px;
+  background-size: 256px 256px;
+  background-position: 0px 0px;
+  background-color: transparent;
+}
+
+#top {
+  background-image: url(main/icon.svg);
+}
+
+#hy {
+  background-image: url(main/icons/hy.svg);
+}
+
+#rnew {
+  background-image: url(main/buttons/rnew.svg);
+}
+
+.iconButton {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  background-size: 64px 64px;
+  background-position: 0px 0px;
+  background-image: none;
+  background-color: transparent;
+}
+
+@font-face {
+  font-family: 'xfont';
+  src: url('main/fonts/COMIC_SANS_MS.TTF');
+}
+
+@font-face {
+  font-family: 'xxfont';
+  src: url('main/fonts/GB2312.TTF');
+}
+
+@font-face {
+  font-family: 'rfont';
+  src: url('main/fonts/CURRENT.TTF');
+}
+
+.sectionButton {
+  background-image: url(main/icons/vb.svg);
+  background-size: 102px;
+  background-position: center 0px;
+  display: inline-block;
+  color: #0ff;
+  background-color: #320;
+  line-height: 234px;
+  font-size: 20px;
+  border-width: 4px;
+
+  width: 156px;
+  height: 140px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#play_cmd {
+  background-image: url(main/icons/hy.svg);
+}
+
+#cps_test {
+  background-image: url(main/icons/cps_test.svg);
+}
+
+#minesweeper {
+  background-image: url(main/icons/minesweeper.svg);
+}
+
+#super_merge {
+  background-image: url(main/icons/super_merge.svg);
+}
+
+#number_train {
+  background-image: url(main/icons/number_train.svg);
+}
+
+#datapacks {
+  background-image: url(main/icons/magic_potion.png);
+}
+
+.chunk {
+  display: inline-block;
+  background-color: #d60;
+  border-width: 4px;
+
+  width: 156px;
+  height: 160px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+/* .shield {
+  display: block;
+  width: 320px;
+  height: 32px;
+  background-size: auto 100%;
+  background-position: center 0px;
+  background-color: transparent;
+  background-image: none;
+}
+
+#sldXeo {
+  background-image: url(main/xeo.svg);
+}
+
+#sldEnd {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 48px;
+  background-image: url(main/end.svg);
+} */
+
+.question {
+  color: #0f0;
+  background-color: #000;
+  border-width: 4px;
+  width: 180px;
+  height: 40px;
+  background-image: none;
+  background-position: 132px 0px;
+  background-size: 40px;
+}
+
+.mend {
+  width: 20px;
+  height: 32px;
+  background-color: transparent !important;
+}
