@@ -1,0 +1,65 @@
+/*
+  <div class="rotating"></div>
+*/
+.rotating {
+  background-color: transparent !important;
+
+  width: 224px;
+  height: 224px;
+  display: inline-block;
+  border: 14px solid #ff5;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  animation: rot5 1s infinite;
+}
+
+#rotating {
+  width: 128px;
+  height: 128px;
+  border-width: 8px;
+}
+
+@keyframes rot5 {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-top-color: #f5f;
+    border-bottom-color: #5f5;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#rotating2 {
+  width: 128px;
+  height: 128px;
+  border-width: 8px;
+  animation: rot52 1s infinite;
+  border-color: #fff;
+}
+
+@keyframes rot52 {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    border-top-color: #aaa;
+    border-bottom-color: #aaa;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

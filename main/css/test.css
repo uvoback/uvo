@@ -1,0 +1,10 @@
+.test {
+    background-color: black;
+    border-radius: 0px;
+    height: 128px;
+    line-height: 128px;
+    font-size: 106.66666666666666px;
+    max-width: max-content !important;
+    width: fit-content;
+    white-space: nowrap;
+}
