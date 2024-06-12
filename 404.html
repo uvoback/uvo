@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>(x-x)</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var current = window.location.href;
+            var index = current.indexOf('/', current.indexOf(':') + 3);
+            var domain = current.substring(0, index);
+            var target = current.substring(index);
+            window.open(domain + "/?" + target.substring(1), "_self");
+        </script>
+    </body>
+</html>

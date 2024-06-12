@@ -1,0 +1,14 @@
+{
+    "preStarts": [
+        "buttons/",
+        "fonts/",
+        "icons/",
+        "audio/",
+        "resmc/",
+        "cursors/"
+    ],
+    "preloads": [
+        "images/watermarkx.png",
+        "images/msbar.png"
+    ]
+}
